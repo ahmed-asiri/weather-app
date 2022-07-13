@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "card-color": "#1794F4",
+        card: "#1794F4",
+        primary: "#F0F0F0",
+      },
+      screens: {
+        xs: "450px",
       },
     },
   },

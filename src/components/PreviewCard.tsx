@@ -7,7 +7,7 @@ function PreviewCard(props: any) {
       <img
         src={require("../assets/images/rainy-day.png")}
         alt="rainy day"
-        className="w-2/4 m-auto my-5 drop-shadow-lg"
+        className="w-2/3 m-auto my-5 drop-shadow-lg"
       />
       <p className="text-3xl font-semibold md:text-5xl relative inline-block m-auto">
         41.93 <span className="font-light absolute -top-2 -right-4">&deg;</span>{" "}

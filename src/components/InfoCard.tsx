@@ -7,6 +7,7 @@ function InfoCard(props: any) {
           SA
         </span>
       </address>
+      <p className="text-black-primary text-xs">Saturday 9 Jul, 2022</p>
     </div>
   );
 }

@@ -10,7 +10,7 @@ function PreviewCard(props: any) {
         className="w-2/3 m-auto my-5 drop-shadow-lg"
       />
       <p className="text-3xl font-semibold md:text-5xl relative inline-block m-auto">
-        41.93 <span className="font-light absolute -top-2 -right-4">&deg;</span>{" "}
+        41.93 <span className="font-light absolute -top-2 -right-4">&deg;</span>
       </p>
       <p className="mt-2">Rainy</p>
     </div>

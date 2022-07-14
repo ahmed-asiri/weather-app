@@ -2,7 +2,7 @@ import Address from "./Address";
 import DayPredict from "./DayPredict";
 import Metric from "./Metric";
 
-function InfoCard(props: any) {
+function InfoSection(props: any) {
   return (
     <div className="w-full xs:w-10/12 sm:w-2/3 w- md:w-1/2 p-4 md:pl-6 bg-white md:rounded-bl-none rounded-b-xl md:rounded-tr-xl  relative md:-left-2">
       <Address />
@@ -22,4 +22,4 @@ function InfoCard(props: any) {
   );
 }
 
-export default InfoCard;
+export default InfoSection;

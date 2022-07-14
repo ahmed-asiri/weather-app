@@ -1,13 +1,13 @@
-import InfoCard from "./InfoCard";
+import InfoSection from "./InfoSection";
 import Layout from "./Layout";
-import PreviewCard from "./PreviewCard";
+import PreviewSection from "./PreviewSection";
 
 function DetailedCard(props: any) {
   return (
     <div className="">
       <Layout>
-        <PreviewCard />
-        <InfoCard />
+        <PreviewSection />
+        <InfoSection />
       </Layout>
     </div>
   );

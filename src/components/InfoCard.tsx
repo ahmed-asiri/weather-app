@@ -1,4 +1,5 @@
 import Address from "./Address";
+import DayPredict from "./DayPredict";
 import Metric from "./Metric";
 
 function InfoCard(props: any) {
@@ -11,6 +12,11 @@ function InfoCard(props: any) {
         <Metric />
         <Metric />
         <Metric />
+      </div>
+      <div className="flex mt-4 gap-x-4">
+        <DayPredict />
+        <DayPredict />
+        <DayPredict />
       </div>
     </div>
   );

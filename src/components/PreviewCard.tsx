@@ -1,6 +1,6 @@
 // import image from "../assets/images/beams.jpeg";
 
-function WeatherPreview(props: any) {
+function PreviewCard(props: any) {
   return (
     <div className="relative xs:w-10/12 sm:w-2/3 md:w-1/2 bg-card md:rounded-xl rounded-t-xl  z-10 text-primary p-4 text-center ">
       <p className="absolute top-2 left-2">Today</p>
@@ -17,4 +17,4 @@ function WeatherPreview(props: any) {
   );
 }
 
-export default WeatherPreview;
+export default PreviewCard;
